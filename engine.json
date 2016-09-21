@@ -1,0 +1,30 @@
+{
+  "id" : "default",
+  "description" : "Default settings",
+  "engineFactory" : "io.prediction.lingpipe.AutoCatEngine",
+  "datasource" : {
+    "params" : {
+      "appName" : "AutoCat",
+      "appId" : 3,
+      "entityType" : "content",
+      "eventType" : "Autocategory",
+      "categoryField" : "CategoryReadable",
+      "queryField" : "Query",
+      "localeField" : "Locale",
+      "stopwordentityType" : "resource",
+      "stopwordeventType" : "stopwords",
+      "stopwordField" : "word",
+      "stopwordlocaleField" : "locale"
+    }
+  },
+  "algorithms" : [{
+    "name" : "algo",
+    "params" : {
+      "maxresults" : 5,
+      "ngramsize" : 3,
+      "modelbuildfilepath" : "/opt/Templates/BuildModels/",
+      "locales" : ["en", "fr", "it"]
+    }
+  }
+  ]
+}

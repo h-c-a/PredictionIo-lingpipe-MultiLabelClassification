@@ -1,0 +1,6 @@
+.idea/
+.vagrant/
+project/project/target/
+project/target/config-classes/
+project/target
+target/
