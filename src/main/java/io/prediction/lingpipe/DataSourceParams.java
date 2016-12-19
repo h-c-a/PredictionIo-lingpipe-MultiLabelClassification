@@ -1,6 +1,6 @@
 package io.prediction.lingpipe;
 
-import io.prediction.controller.Params;
+import org.apache.predictionio.controller.Params;
 
 public class DataSourceParams implements Params{
     private final String appName;

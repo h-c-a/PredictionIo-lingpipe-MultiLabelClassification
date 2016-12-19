@@ -2,12 +2,12 @@ import AssemblyKeys._
 
 assemblySettings
 
-name := "AutoCat"
+name := "PredictionIo-lingpipe-MultiLabelClassification"
 
-organization := "Scalepoint"
+organization := "org.apache.predictionio"
 
 libraryDependencies ++= Seq(
-  "io.prediction" %% "core" % pioVersion.value % "provided",
+  "org.apache.predictionio" %% "apache-predictionio-core" % "0.10.0-incubating" % "provided",
   "de.julielab" % "aliasi-lingpipe" % "4.1.0",
   "org.carrot2" % "carrot2-core" % "3.11.0",
   "org.apache.spark" %% "spark-core" % "1.3.0" % "provided",
@@ -16,3 +16,4 @@ libraryDependencies ++= Seq(
   "com.google.guava" % "guava" % "12.0",
   "org.jblas" % "jblas" % "1.2.4"
 )
+	

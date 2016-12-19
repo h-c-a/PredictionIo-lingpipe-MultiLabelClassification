@@ -1,6 +1,6 @@
 package io.prediction.lingpipe;
 
-        import io.prediction.controller.java.LJavaServing;
+        import org.apache.predictionio.controller.java.LJavaServing;
         import scala.collection.Seq;
 
 public class Serving extends LJavaServing<Query,PredictedResult> {

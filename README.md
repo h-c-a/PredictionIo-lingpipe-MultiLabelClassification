@@ -100,7 +100,7 @@ This file allows the user to describe and set parameters that control the engine
       "engineFactory": "io.prediction.lingpipe.AutoCatEngine",
       "datasource": {
         "params": {
-          "appName": "AutoCat",
+          "appName": "Classify",
           "appId": 1,
           "entityType": "content",
           "eventType": "Autocategory",

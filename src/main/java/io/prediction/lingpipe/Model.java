@@ -6,13 +6,13 @@ import com.aliasi.lm.NGramProcessLM;
 import com.aliasi.util.AbstractExternalizable;
 import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
-import io.prediction.controller.Params;
-import io.prediction.controller.PersistentModel;
-import io.prediction.data.storage.Event;
-import io.prediction.data.store.java.OptionHelper;
-import io.prediction.data.store.java.PJavaEventStore;
-import io.prediction.workflow.EngineLanguage;
-import io.prediction.workflow.JsonExtractorOption;
+import org.apache.predictionio.controller.Params;
+import org.apache.predictionio.controller.PersistentModel;
+import org.apache.predictionio.data.storage.Event;
+import org.apache.predictionio.data.store.java.OptionHelper;
+import org.apache.predictionio.data.store.java.PJavaEventStore;
+import org.apache.predictionio.workflow.EngineLanguage;
+import org.apache.predictionio.workflow.JsonExtractorOption;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.function.Function;
 import org.joda.time.DateTime;
@@ -30,7 +30,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static io.prediction.workflow.WorkflowUtils.getParamsFromJsonByFieldAndClass;
+import static org.apache.predictionio.workflow.WorkflowUtils.getParamsFromJsonByFieldAndClass;
 
 public class Model implements PersistentModel<AlgorithmParams>, Serializable {
 

@@ -2,11 +2,11 @@ package io.prediction.lingpipe;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
-import io.prediction.controller.EmptyParams;
-import io.prediction.controller.java.PJavaDataSource;
-import io.prediction.data.storage.Event;
-import io.prediction.data.store.java.OptionHelper;
-import io.prediction.data.store.java.PJavaEventStore;
+import org.apache.predictionio.controller.EmptyParams;
+import org.apache.predictionio.controller.java.PJavaDataSource;
+import org.apache.predictionio.data.storage.Event;
+import org.apache.predictionio.data.store.java.OptionHelper;
+import org.apache.predictionio.data.store.java.PJavaEventStore;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.function.Function;

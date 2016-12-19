@@ -4,7 +4,7 @@ import com.aliasi.classify.*;
 import com.aliasi.lm.NGramProcessLM;
 import com.google.common.base.Strings;
 import com.google.common.collect.Maps;
-import io.prediction.controller.java.PJavaAlgorithm;
+import org.apache.predictionio.controller.java.PJavaAlgorithm;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;

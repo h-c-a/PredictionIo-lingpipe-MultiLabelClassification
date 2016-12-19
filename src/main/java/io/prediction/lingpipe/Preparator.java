@@ -1,6 +1,6 @@
 package io.prediction.lingpipe;
 
-import io.prediction.controller.java.PJavaPreparator;
+import org.apache.predictionio.controller.java.PJavaPreparator;
 import org.apache.spark.SparkContext;
 
 public class Preparator extends PJavaPreparator<TrainingData, PreparedData> {

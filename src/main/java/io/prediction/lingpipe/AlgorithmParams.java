@@ -1,10 +1,10 @@
 package io.prediction.lingpipe;
 
-import io.prediction.controller.Params;
+import org.apache.predictionio.controller.Params;
 
 import java.util.List;
 
-public class AlgorithmParams implements Params{
+public class AlgorithmParams implements Params {
     private final int ngramsize;
     private final int maxresults;
     private final String modelbuildfilepath;

@@ -4,7 +4,7 @@
   "engineFactory" : "io.prediction.lingpipe.AutoCatEngine",
   "datasource" : {
     "params" : {
-      "appName" : "AutoCat",
+      "appName" : "Classify",
       "appId" : 3,
       "entityType" : "content",
       "eventType" : "Autocategory",

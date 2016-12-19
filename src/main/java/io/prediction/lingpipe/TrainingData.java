@@ -1,6 +1,6 @@
 package io.prediction.lingpipe;
 
-import io.prediction.controller.SanityCheck;
+import org.apache.predictionio.controller.SanityCheck;
 import org.apache.spark.api.java.JavaRDD;
 
 import java.io.Serializable;
